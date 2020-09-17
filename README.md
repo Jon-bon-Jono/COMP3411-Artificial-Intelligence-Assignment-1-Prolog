@@ -14,3 +14,10 @@ Write a predicate log_table(NumberList,ResultList) that binds ResultList to the 
 Any  list  of  integers  can  (uniquely)  be  broken  into  "parity  runs"  where  each  run  is  a (maximal)  sequence  of  consecutive  even  or  odd  numbers  within  the  original  list.  For example, the list `List=[8,0,4,3,7,2,-1,9,9]` can be broken into `[8,0,4], [3,7], [2]`  and `[-1,9,9]`. Write  a  predicate `paruns(List,RunList)` that converts a list of numbers into the corresponding list of parity runs. 
 - Example: `?- paruns([8,0,4,3,7,2,-1,9,9], RunList).`
   - `RunList = [[8, 0, 4], [3, 7], [2], [-1, 9, 9]]`
+
+## Question 1.4: Prolog Terms
+Arithmetic  expressions  can  be  written  in prefix  format,  e.g  1+2*3  can  be  written  as `add(1, mul(2, 3))`.   If the operators available are add, sub, mul, div, write a Prolog program, `eval(Expr, Val)`, that will evaluate a prefix expression
+- Example: `?- eval(add(1, mul(2, 3)), V).`
+  - `V = 7`
+  - `?- eval(div(add(1, mul(2, 3)), 2), V).`
+  - `V = 3.5`
