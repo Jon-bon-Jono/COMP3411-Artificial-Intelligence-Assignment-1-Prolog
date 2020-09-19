@@ -1,3 +1,4 @@
+%Written by Jonathan Williams (z5162987)
 :- use_module(a1).
 
 sumsq_even_tests :-
