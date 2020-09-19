@@ -22,7 +22,7 @@ Arithmetic  expressions  can  be  written  in prefix  format,  e.g  1+2*3  can  
   - `?- eval(div(add(1, mul(2, 3)), 2), V).`
   - `V = 3.5`
 
-##Unit testing
+## Testing
 Unit tests can be found in A1_test.pl, testing the procedures:
 - `sumsq_even_tests.`
 - `log_table_tests.`
