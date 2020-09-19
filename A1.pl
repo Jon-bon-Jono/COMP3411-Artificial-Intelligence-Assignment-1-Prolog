@@ -2,6 +2,7 @@
 Written by Jonathan Williams
 z5162987
 */
+:- module(a1, [sumsq_even/2, log_table/2, paruns/2, eval/2]).
 
 %Q1.1
 %sums the squares of only even numbers in a list of integers
